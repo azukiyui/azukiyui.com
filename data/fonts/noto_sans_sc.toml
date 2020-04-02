@@ -1,0 +1,11 @@
+# Font style metadata
+name = "noto_sans_sc"
+
+# Optional Google font URL
+google_fonts = "Noto+Sans+SC"
+
+# Font families
+heading_font = "Noto Sans SC"
+body_font = "Noto Sans SC"
+nav_font = "Noto Sans SC"
+mono_font = "Noto Sans SC"
