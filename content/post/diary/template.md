@@ -1,33 +1,3 @@
----
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Template"
-subtitle: ""
-summary: ""
-authors: [admin]
-tags: [Dairy]
-categories: [Dairy]
-date: 2020-04-06T23:30:06+09:00
-lastmod: 2020-04-06T23:30:06+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
----
-
 尝试每天记录一点当天的活动，帮助自己看准前进的方向，可以写的内容包括
 
 尝试每天的活动多元化一点，避免一直做重复的事情厌倦
