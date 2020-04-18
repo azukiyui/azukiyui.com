@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Overview"
+title: "Flowcharts"
 subtitle: ""
 summary: ""
-authors: [admin]
-tags: [Interview]
+authors: []
+tags: []
 categories: []
-date: 2020-04-14T16:05:19+09:00
-lastmod: 2020-04-14T16:05:19+09:00
+date: 2020-04-18T07:45:43+09:00
+lastmod: 2020-04-18T07:45:43+09:00
 featured: false
 draft: false
 
@@ -26,18 +26,33 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-
 ---
 
-### 做过的可以归类的题
-
-- Edit Distance
-  - [LC72](../lc72)
-- 树的遍历
-  - Iteration：前中后序都用stack辅助，后序还需要dequeue
-  - 按层遍历：用queue
 
 
+使用以下的shortcode来添加flowchart，预览则使用Typora的flow功能
 
+{{\%flowchart\%}} 
 
+{{\% /flowchart\%}}
 
+{{% flowchart%}}
+
+```flow
+st=>start: Start:>http://www.google.com[blank]
+e=>end:>http://www.google.com
+op1=>operation: My Operation
+sub1=>subroutine: My Subroutine
+cond=>condition: Yes
+or No?:>http://www.google.com
+io=>inputoutput: catch something...
+para=>parallel: parallel tasks
+
+st->op1->cond
+cond(yes)->io->e
+cond(no)->para
+para(path1, bottom)->sub1(right)->op1
+para(path2, top)->op1
+```
+
+{{% /flowchart%}}
