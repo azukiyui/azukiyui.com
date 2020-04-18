@@ -32,6 +32,12 @@ projects: []
 
 添加了echarts的支持，使用shortcode的方法，添加如下的json string，注意json的item需要加引号 \"\"， 可以有换行，不能有tab
 
+参数的400是height
+
+{{\% echarts 400 \%}}
+
+{{\% /echarts \%}}
+
 ```json
 {
 
@@ -52,7 +58,7 @@ projects: []
 
 
 
-{{% echarts %}}
+{{% echarts 400 %}}
 
 {
 
