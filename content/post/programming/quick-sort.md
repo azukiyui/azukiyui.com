@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: [admin]
 tags: [programming, sort]
-categories: []
+categories: [CS, Algorithm]
 date: 2020-02-20T09:48:14+09:00
 lastmod: 2020-02-20T09:48:14+09:00
 featured: false
@@ -26,6 +26,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
 ---
 
 ```c++
