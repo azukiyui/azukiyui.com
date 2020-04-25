@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Weedends"
+title: "Weekends"
 subtitle: ""
 summary: ""
 authors: [admin]
