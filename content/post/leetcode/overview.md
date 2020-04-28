@@ -29,7 +29,13 @@ projects: []
 
 ---
 
-### 做过的可以归类的题
+## 从这几个地方找题做
+
+- https://zxi.mytechroad.com/blog/leetcode-problem-categories/
+- 在https://azukiyui.com/post/leetcode/todo/ 有需要复习的题
+- 在https://azukiyui.com/post/leetcode/toread/ 有需要看的视频和文章
+
+## 做过的可以归类的题
 
 - Edit Distance
   - [LC72](../lc72)
