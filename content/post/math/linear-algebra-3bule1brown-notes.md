@@ -124,11 +124,34 @@ toc对应康奈尔笔记的左边栏(问题/线索 )，title(##或者###)对应�
 
 - 存在一个3D->1D的线性变换$\vec P$，使得。$\begin{bmatrix}P_x\\P_y\\P_z\end{bmatrix}\cdot\begin{bmatrix}i\\j\\k\end{bmatrix} = det(\begin{bmatrix}\hat i & v_x&w_x\\\hat j&v_y&w_y\\\hat k&v_z&w_z\end{bmatrix})$
 
-  
-  
-- $A^{-1}MA$表示了从其他坐标系统变换到标准坐标系统的矩阵$A$，在标准坐标系统的变换$M$，在从标准坐标系统变换到原坐标系统$A^{-1}$的过程。
+- $A^{-1}MA$表示了从其他坐标系统变换到标准坐标系统的矩阵$A$，在标准坐标系统应用可能的变换$M$，再从标准坐标系统变换到原坐标系统$A^{-1}$的过程。
 
   
+  
+- Eigen vector就是在线性变换之后，span不变，只是scale变化的vector，即变换前后的方向是不变的
+
+- 3D rotation的eigen vector就是旋转轴
+
+- eigen vector更能表示线性变化的特点
+
+  - 即$A\vec v = \lambda \vec v$中的$\vec v$，表示了线性变换A的的特点，使得可以用简单的向量$\vec v$来表示复杂的线性变换$A$
+  - 从$A\vec v = \lambda \vec v$推导出$A\vec v = (\lambda I) \vec v$，再移项提出v得到$(A-\lambda I)\vec v =  \vec 0$，从而得出$det(A-\lambda I)=0$，可以理解为$(A-\lambda I)$这个线性变换，把空间压缩，减少了一个维度
+  - 计算出$\lambda$之后，把$\lambda$的值带入$A-\lambda I$得到新矩阵B，解$B\vec v=0$得到eigen vector $v$
+  - eigen value是一个对角矩阵，所以计算的时候相对于普通的矩阵乘法要简单许多
+  - 所以可以选择eigen vector作为坐标轴基向量，通过变换坐标轴，来简化线性变换矩阵，从而得到一个非常简单的对角矩阵
+
+
+
+- 把多维的向量看作函数更好理解，因为函数的每一个值就可以对应向量的每一个分量，其他的操作也是一样的运算方法
+- 更进一步从函数来说，也可以应用一个“线性变换”，把一个函数变换到另一个函数
+- 函数的“线性”变换：
+  - additivity：L(v+w)=L(v)+L(w)
+  - scaling: L(kv)=kL(v)
+- 求导就是“线性”的
+- 函数的每一个指数未知数就是向量的一个值
+- 求导的矩阵
+  - $\begin{bmatrix}0&1&0&0&0&...\\0&0&2&0&0&...\\0&0&0&3&0&...\\...\end{bmatrix}$
+  - 其中1，2，3是$x$的幂数
 
 # 线索2
 

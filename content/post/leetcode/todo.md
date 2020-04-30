@@ -1,4 +1,5 @@
 ---
+
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "当前需要做的LeetCode题"
@@ -88,3 +89,7 @@ https://blog.csdn.net/fuxuemingzhu/article/details/88017481
 - [ ] 72
 - [ ] 161
 - [ ] 472 http://blog.jerkybible.com/2017/01/24/LeetCode-472-Concatenated-Words/
+- [ ] 多线程的三题
+  - [ ] 1114
+  - [ ] 1115
+  - [ ] 1116
