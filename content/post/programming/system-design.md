@@ -181,5 +181,76 @@ vector<int> b = a;
 //a is std::initializer_lype
 ```
 
-## EP11
+## EP11 Multi-Threading
 
+Leetcode有几题相关的题
+
+## EP10 A*
+
+A*算法
+
+- Dijkstra的extention
+- Dijkstra: f(n)=g(n)
+- A*: f(n)=g(n)+h(n)
+- g(n): cost from start
+- h(n): estimated cost from current to target
+- Time: O(|E|log|V|)
+- Space: O(|V|)
+
+## EP12
+
+C++的2D array是colum major，连续排列的
+
+## EP 13 Proto Buffer
+
+https://github.com/huahualeetcode/SharpProto
+
+## EP 15 Modern c++
+
+- `std::initializer_list<T>`
+
+- `auto`
+
+- structtured binding
+
+  ```c++
+  pair<int, float> p(1,3.14);
+  const auto& [x,y] = p;
+  
+  set<int> s;
+  const auto [it, success] = s.insert(x);
+  ```
+
+- range based loop
+
+  ```c++
+  map<string, int> m;
+  for(auto&& [key, val] : m)
+  {
+  	cout<<key<<val;
+  }
+  ```
+
+- lambda expression
+
+  ```c++
+  auto comp = [](const auto& a, const auto& b){return a<b;};
+  set<int, decltype(comp)> a(comp);
+  
+  class Foo
+  {
+      void Init()
+      {
+          bar->onUpdate([this](const auto& data)
+                {
+                    //在Bar中调用Foo的Private function
+                    this->UpdateFoo(data);
+                });
+      }
+      
+      Bar* bar;
+      void UpdateFoo(const int data){}
+  }
+  ```
+
+- string_view
