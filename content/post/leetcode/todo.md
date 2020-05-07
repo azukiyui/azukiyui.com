@@ -6,8 +6,8 @@ title: "当前需要做的LeetCode题"
 subtitle: ""
 summary: ""
 authors: [admin]
-tags: [Interview]
-categories: [Programming]
+tags: []
+categories: [Leetcode]
 date: 2020-04-25T10:22:58+09:00
 lastmod: 2020-04-25T10:22:58+09:00
 featured: false

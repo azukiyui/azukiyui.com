@@ -5,8 +5,8 @@ title: "Overview"
 subtitle: ""
 summary: ""
 authors: [admin]
-tags: [Interview]
-categories: []
+tags: []
+categories: [Leetcode]
 date: 2020-04-14T16:05:19+09:00
 lastmod: 2020-04-14T16:05:19+09:00
 featured: false

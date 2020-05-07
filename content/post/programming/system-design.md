@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: [admin]
 tags: [leetcode, system design]
-categories: [programming]
+categories: [Programming]
 date: 2020-04-28T15:36:21+09:00
 lastmod: 2020-04-28T15:36:21+09:00
 featured: false

@@ -5,8 +5,8 @@ title: "Quick Sort"
 subtitle: ""
 summary: ""
 authors: [admin]
-tags: [programming, sort]
-categories: [CS, Algorithm]
+tags: [sort]
+categories: [Programming, Algorithm]
 date: 2020-02-20T09:48:14+09:00
 lastmod: 2020-02-20T09:48:14+09:00
 featured: false

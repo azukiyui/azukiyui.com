@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: [admin]
 tags: [c++]
-categories: [programming]
+categories: [Programming]
 date: 2019-11-01T11:56:25+09:00
 lastmod: 2019-11-01T11:56:25+09:00
 featured: false

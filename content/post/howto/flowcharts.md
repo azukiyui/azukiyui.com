@@ -4,9 +4,9 @@
 title: "Flowcharts"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin]
 tags: []
-categories: []
+categories: [HowTo]
 date: 2020-04-18T07:45:43+09:00
 lastmod: 2020-04-18T07:45:43+09:00
 featured: false

@@ -5,8 +5,8 @@ title: "Doxygen Code Example"
 subtitle: ""
 summary: ""
 authors: [admin]
-tags: []
-categories: []
+tags: [c++]
+categories: [Programming]
 date: 2019-08-15T14:41:28+08:00
 lastmod: 2019-08-15T14:41:28+08:00
 featured: false

@@ -33,3 +33,4 @@ projects: []
 - 在Onenote的Inbox或者ToWatch找找没有看的视频
 - 看看个人引擎的开发计划
 - 看看房子
+- Notion的阅读计划有没有想看的文章
