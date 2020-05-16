@@ -59,6 +59,10 @@ Hard Problem->Sum of small/simple value->area under a graph（面积）
 
 积分的符号d，表示difference
 
+### Derivatives
+
+把微分展开，$\frac{ds}{dt}=\frac{f(s+\Delta s)-f(s)}{dt}$一般来说可以把dt消掉，从而得到导数的值
+
 
 
 # 线索2

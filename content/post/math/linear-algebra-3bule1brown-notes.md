@@ -40,6 +40,8 @@ toc对应康奈尔笔记的左边栏(问题/线索 )，title(##或者###)对应�
 
 这是一系列[视频](https://www.3blue1brown.com/essence-of-linear-algebra-page)的笔记
 
+{{% toc %}}
+
 [toc]
 
 # 线索1: 第二步在这里写出对第一步笔记的问题或者线索，使用#
@@ -66,9 +68,9 @@ toc对应康奈尔笔记的左边栏(问题/线索 )，title(##或者###)对应�
 - input—linear transformation-》output
 - Linear Transformation(Function)：保证原点不变，并且保证grid line parallel and evenly spaced
 - Linear Transformation表示的是i，j的变化，就可以通过matrix的两组值来想象整个坐标空间的变化
-- $\begin{pmatrix}a&c\\b&d\end{pmatrix}$中ab是i的x,y坐标变化，cd是j的x,y坐标变化
-- $\begin{pmatrix}a&c\\b&d\end{pmatrix}$$\begin{bmatrix}X\\Y\end{bmatrix}$左乘向量
-- 这样的好处是可以通过想象移动i，j来构成$\begin{pmatrix}a&c\\b&d\end{pmatrix}$的各个值
+- $\begin{pmatrix}a&c \\\ b&d\end{pmatrix}$中ab是i的x,y坐标变化，cd是j的x,y坐标变化
+- $\begin{pmatrix}a&c \\\ b&d\end{pmatrix}$$\begin{bmatrix}X \\\ Y\end{bmatrix}$左乘向量
+- 这样的好处是可以通过想象移动i，j来构成$\begin{pmatrix}a&c \\\ b&d\end{pmatrix}$的各个值
 
 
 
@@ -85,7 +87,7 @@ toc对应康奈尔笔记的左边栏(问题/线索 )，title(##或者###)对应�
   - 当前linear transformation造成的面积（体积）变化
   - det=0表示面积变成了直线（降维）
   - 正负号表示朝向
-- $det\begin{pmatrix}a&c\\b&d\end{pmatrix} = a\times d-b\times c$
+- $det\begin{pmatrix}a&c  \\\  b&d\end{pmatrix} = a\times d-b\times c$
 - 2D<->3D的变化也可以用matrix来变化，即使用3x2或者2x3来变化向量，这也和投影是一个道理
 
 
@@ -118,11 +120,11 @@ toc对应康奈尔笔记的左边栏(问题/线索 )，title(##或者###)对应�
 
   
   
-- $\begin{bmatrix}v_x\\v_y\\v_z\end{bmatrix}\times\begin{bmatrix}w_x\\w_y\\w_z\end{bmatrix} = det(\begin{bmatrix}\hat i & v_x&w_x\\\hat j&v_y&w_y\\\hat k&v_z&w_z\end{bmatrix})$
+- $\begin{bmatrix}v_x \\\ v_y \\\ v_z\end{bmatrix}\times\begin{bmatrix}w_x \\\ w_y \\\ w_z\end{bmatrix} = det(\begin{bmatrix}\hat i & v_x&w_x \\\ \hat j&v_y&w_y \\\ \hat k&v_z&w_z\end{bmatrix})$
 
-- 把$\hat i, \hat j, \hat k$当作varibale，则矩阵$\begin{bmatrix}\hat i & v_x&w_x\\\hat j&v_y&w_y\\\hat k&v_z&w_z\end{bmatrix}$构成了一个3D的平行四面体，通过移动variable来改变四面体的形状
+- 把$\hat i, \hat j, \hat k$当作varibale，则矩阵$\begin{bmatrix}\hat i & v_x&w_x \\\ \hat j&v_y&w_y \\\ \hat k&v_z&w_z\end{bmatrix}$构成了一个3D的平行四面体，通过移动variable来改变四面体的形状
 
-- 存在一个3D->1D的线性变换$\vec P$，使得。$\begin{bmatrix}P_x\\P_y\\P_z\end{bmatrix}\cdot\begin{bmatrix}i\\j\\k\end{bmatrix} = det(\begin{bmatrix}\hat i & v_x&w_x\\\hat j&v_y&w_y\\\hat k&v_z&w_z\end{bmatrix})$
+- 存在一个3D->1D的线性变换$\vec P$，使得。$\begin{bmatrix}P_x \\\ P_y \\\ P_z\end{bmatrix}\cdot\begin{bmatrix}i \\\ j \\\ k\end{bmatrix} = det(\begin{bmatrix}\hat i & v_x&w_x \\\ \hat j&v_y&w_y \\\ \hat k&v_z&w_z\end{bmatrix})$
 
 - $A^{-1}MA$表示了从其他坐标系统变换到标准坐标系统的矩阵$A$，在标准坐标系统应用可能的变换$M$，再从标准坐标系统变换到原坐标系统$A^{-1}$的过程。
 
@@ -150,7 +152,7 @@ toc对应康奈尔笔记的左边栏(问题/线索 )，title(##或者###)对应�
 - 求导就是“线性”的
 - 函数的每一个指数未知数就是向量的一个值
 - 求导的矩阵
-  - $\begin{bmatrix}0&1&0&0&0&...\\0&0&2&0&0&...\\0&0&0&3&0&...\\...\end{bmatrix}$
+  - $\begin{bmatrix}0&1&0&0&0&... \\\ 0&0&2&0&0&... \\\ 0&0&0&3&0&... \\\ ...\end{bmatrix}$
   - 其中1，2，3是$x$的幂数
 
 # 线索2
