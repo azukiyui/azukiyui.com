@@ -46,7 +46,7 @@ toc对应康奈尔笔记的左边栏(问题/线索 )，title(##或者###)对应�
 - 使用缩写
 - 列出要点
 
-
+# EP1
 
 ## 圆的面积
 
@@ -59,9 +59,21 @@ Hard Problem->Sum of small/simple value->area under a graph（面积）
 
 积分的符号d，表示difference
 
-### Derivatives
+
+
+# EP2
+
+## Derivatives
 
 把微分展开，$\frac{ds}{dt}=\frac{f(s+\Delta s)-f(s)}{dt}$一般来说可以把dt消掉，从而得到导数的值
+
+
+
+# EP3
+
+- 求$f(x)=\frac{1}{x}$的倒数，想象一个面积是1，长是x，宽是1/x的矩形的长宽变化
+
+- 弧度制下的$\theta$就是单位圆所对应的弧长
 
 
 
