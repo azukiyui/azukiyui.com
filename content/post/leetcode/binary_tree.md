@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Entry"
+title: "Binary_tree"
 subtitle: ""
 summary: ""
-authors: [admin]
-tags: [Flow]
-categories: [GTD]
-date: 2020-04-23T09:39:48+09:00
-lastmod: 2020-04-23T09:39:48+09:00
+authors: []
+tags: []
+categories: []
+date: 2020-05-31T11:01:38+09:00
+lastmod: 2020-05-31T11:01:38+09:00
 featured: false
 draft: false
 
@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-## 判断当前时间
+### 二叉树遍历
 
-- ### [工作日](../weekdays)
-- ### 休息日
+- 前中后序，递归和迭代
+- 分层遍历

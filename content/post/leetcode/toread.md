@@ -32,5 +32,7 @@ projects: []
 
 - [ ] https://medium.com/@akshitgrover_/why-do-i-think-time-complexity-of-generating-all-permutations-of-a-string-is-o-n-e68c0ecde5c5
 - [ ] https://www.youtube.com/watch?v=uIqvbYVBiCI
-- [ ] 
+- [ ] test的例子：https://github.com/jwasham/coding-interview-university#testing
+- [ ] system design：https://github.com/jwasham/coding-interview-university#system-design-scalability-data-handling
+- [ ] DP教程：http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming
 

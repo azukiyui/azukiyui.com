@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Entry"
+title: "At Workplace"
 subtitle: ""
 summary: ""
-authors: [admin]
-tags: [Flow]
-categories: [GTD]
-date: 2020-04-23T09:39:48+09:00
-lastmod: 2020-04-23T09:39:48+09:00
+authors: []
+tags: []
+categories: []
+date: 2020-06-04T13:46:37+09:00
+lastmod: 2020-06-04T13:46:37+09:00
 featured: false
 draft: false
 
@@ -27,8 +27,3 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-
-## 判断当前时间
-
-- ### [工作日](../weekdays)
-- ### 休息日

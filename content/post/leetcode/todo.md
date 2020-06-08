@@ -31,6 +31,14 @@ projects: []
 
 ### 当前需要做的题
 
+[Binary Tree](../binary_tree)
+
+[Prefix Tree](../prefix_tree)
+
+[排列相关](../combination)
+
+[图的最小距离](../graph_min_distance)
+
 - [ ] 254
 - [ ] 17
 - [ ] Combinations系列
@@ -93,3 +101,5 @@ https://blog.csdn.net/fuxuemingzhu/article/details/88017481
   - [ ] 1114
   - [ ] 1115
   - [ ] 1116
+- [ ] FindUnion的题
+  - [ ] huahua视频的总结
