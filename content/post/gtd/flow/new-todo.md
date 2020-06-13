@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "None Todo"
+title: "看文章/读书/做计划/开发/学习的流程"
 subtitle: ""
 summary: ""
 authors: [admin]
 tags: [Flow]
 categories: [GTD]
-date: 2020-04-24T09:10:40+09:00
-lastmod: 2020-04-24T09:10:40+09:00
+date: 2020-06-13T14:12:41+09:00
+lastmod: 2020-06-13T14:12:41+09:00
 featured: false
 draft: false
 
@@ -28,11 +28,8 @@ image:
 projects: []
 ---
 
-### 如果没有做事意愿，可以考虑下面的活动
-
-- 在Onenote的Inbox或者ToWatch找找没有看的视频
-- 看看个人引擎的开发计划
-- 看看房子
-- Notion的阅读计划有没有想看的文章
-- 看Extra Credits
-- 看The New Yorker
+- 若是新的事务，从Onenote开始
+  - 在Introduction有一个笔记模板
+  - 按照模板的内容，在对应的section创建页面，如有必要新建mindmap，XX计划的Notion页面
+  - 若是文章阅读，则直接使用Note的模板
+- 若是正在做的事务，从Onenote开始有一个Introduction页面，引导到对应的Notion或者Note，继续事务
