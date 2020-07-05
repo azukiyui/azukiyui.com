@@ -41,7 +41,7 @@ projects: []
 - 复习日语
 - 写博客文章
 - 看一点OneNote SomethingTo的东西
-- 看Notion的阅读计划
+- 看Super Productivity的阅读计划
 
 # 需要注意的点
 
@@ -86,7 +86,7 @@ projects: []
 # 中午
 
 - 12点30左右吃午饭
-- 1点30学日语：看Notion的日语学习计划
+- 1点30学日语：看Super Productivity的日语学习计划
 - 2点30继续处理当前周末任务
   - AR的开发
   - vEngine的开发
@@ -94,8 +94,7 @@ projects: []
 
 # 晚上
 
-- 18点吃晚饭
-- 19点学日语：看Notion的日语学习计划
+- 19点学日语：看Super Productivity的日语学习计划
 - 21点用健身环锻炼，之后趴青蛙
 - 10点洗漱
 - 看日常文章，听写日语，写总结文章
