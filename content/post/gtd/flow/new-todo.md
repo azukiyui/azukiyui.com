@@ -30,6 +30,6 @@ projects: []
 
 - 若是新的事务，从Onenote开始
   - 在Introduction有一个笔记模板
-  - 按照模板的内容，在对应的section创建页面，如有必要在Obsidian新建mindmap，在Super Productivity新建XX计划
+  - 按照模板的内容，在对应的section创建页面，如有必要在ClickUp新建mindmap，在ClickUp新建XX计划
   - 若是文章阅读，则在Obsidian建立笔记
-- 若是正在做的事务，从Onenote开始有一个Introduction页面，引导到对应的Super Productivity或者Note，继续事务
+- 若是正在做的事务，从Onenote开始有一个Introduction页面，引导到对应的ClickUp或者Obsidian，继续事务

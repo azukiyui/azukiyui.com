@@ -33,6 +33,6 @@ projects: []
 - 在Onenote的Inbox或者ToWatch找找没有看的视频
 - 看看个人引擎的开发计划
 - 看看房子
-- Super Productivity的阅读计划有没有想看的文章
+- ClickUp的阅读计划有没有想看的文章
 - 看Extra Credits
 - 看The New Yorker
