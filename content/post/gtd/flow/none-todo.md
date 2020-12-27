@@ -30,9 +30,10 @@ projects: []
 
 ### 如果没有做事意愿，可以考虑下面的活动
 
-- 在Onenote的Inbox或者ToWatch找找没有看的视频
+- Zotero的ToWatch找找没有看的视频
 - 看看个人引擎的开发计划
 - 看看房子
-- ClickUp的阅读计划有没有想看的文章
+- 在Nirvana的阅读计划有没有想看的文章
 - 看Extra Credits
 - 看The New Yorker
+- 整理Omeka的时间地图线：任务在Nirvana的Omeka任务
