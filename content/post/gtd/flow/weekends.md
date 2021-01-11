@@ -40,7 +40,7 @@ projects: []
 - 看房子
 - 复习日语
 - 写博客文章
-- 看一点OneNote SomethingTo的东西
+- 看一点Zotero SomethingTo的东西
 - 看Nirvana的阅读计划
 
 # 需要注意的点
@@ -55,10 +55,11 @@ projects: []
 
 # 早上
 
-- 7点起床
+- 6点起床
 - 一醒就趴青蛙，再洗漱
 - 吃早饭
-- 8点左右开始做事
+- 听写日语
+- 7点左右开始做事
 - 清空Pocket
 - 处理Nirvana的任务
   - 先查看：[本周目标]里面的内容
